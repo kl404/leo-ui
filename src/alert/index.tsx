@@ -31,5 +31,5 @@ const Alert: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (
 Alert.propTypes = {
   kind: t.oneOf(['info', 'positive', 'negative', 'warning']),
 };
-
+console.log('??')
 export default Alert;
