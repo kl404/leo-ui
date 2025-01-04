@@ -1,1 +1,1 @@
-console.log('object')
+console.log('objeasdsadasdsact??', { a: 1, b: 2 });

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "commit": "git-cz"
   },
   "keywords": [],
@@ -28,12 +28,10 @@
   "lint-staged": {
     "src/**/*.ts?(x)": [
       "prettier --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "src/**/*.less": [
-      "stylelint --syntax less --fix",
-      "git add"
+      "stylelint --syntax less --fix"
     ]
   },
   "config": {
