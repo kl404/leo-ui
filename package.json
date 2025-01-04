@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "commit": "git-cz"
   },
   "keywords": [],
@@ -34,12 +35,6 @@
       "stylelint --syntax less --fix",
       "git add"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
   },
   "config": {
     "commitizen": {
