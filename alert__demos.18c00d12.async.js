@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleo_ui=self.webpackChunkleo_ui||[]).push([[819],{70621:function(l,n,u){u.r(n);var t=u(67294),E=u(70208),e=u(86169);n.default=function(){return t.createElement(E.default,{kind:"warning"},"\u8FD9\u662F\u4E00\u6761\u8B66\u544A\u63D0\u793A")}}}]);
